@@ -1,10 +1,16 @@
 import './App.css';
+import AboutMe from './AboutMe';
+import Likes from './Likes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
-      <h1>Carmela Diata</h1>
+      <div className='mela'>
+        <div className='carla'>
+          <AboutMe />
+          <Likes />
+        </div>
+      </div>
     </div>
   );
 }
